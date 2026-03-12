@@ -15,7 +15,7 @@ const WalletPage: React.FC = () => {
       <div className="wallet-container">
         <div className="wallet-header">
           <div className="logo-container">
-            <img src="/src/assets/bitgo-logo.png" alt="BitGo Logo" className="logo" />
+            <img src="/images/bitgo logo.jpeg" alt="BitGo Logo" className="logo" />
             <h1>Wallet</h1>
           </div>
         </div>
