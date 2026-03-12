@@ -12,7 +12,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  background: white;
+  background: transparent;
   border-radius: 0;
   box-shadow: none;
   overflow: hidden;
@@ -20,17 +20,20 @@
 
 .welcome-container {
   background: rgba(255, 255, 255, 0.9);
-  padding: 40px 0;
+  padding: 40px;
+  margin-bottom: 30px;
 }
 
 .balance-container {
   background: rgba(255, 255, 255, 0.95);
-  padding: 20px 0;
+  padding: 40px;
+  margin-bottom: 30px;
 }
 
 .actions-container {
   background: rgba(255, 255, 255, 1);
-  padding: 20px 0;
+  padding: 40px;
+  margin-bottom: 30px;
 }
 
 .wallet-header {
@@ -71,17 +74,14 @@
 
 .welcome-container {
   background: rgba(255, 255, 255, 0.9);
-  padding: 40px 0;
+  padding: 40px;
   text-align: center;
 }
 
 .welcome-text h2 {
   font-size: 48px;
   font-weight: 800;
-  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #1f2937;
   animation: shimmer 3s ease-in-out infinite;
   margin: 0;
 }
@@ -92,7 +92,7 @@
 }
 
 .wallet-content {
-  padding: 40px;
+  padding: 0;
 }
 
 .balance-card {
